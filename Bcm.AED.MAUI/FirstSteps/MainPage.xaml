@@ -4,9 +4,11 @@
              x:Class="FirstSteps.MainPage">
 
     <ScrollView>
+		<!--scrollbare View-->
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+			<!--vertikale Anordung der UI-Elemente innerhalb der scrollbaren View-->
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"

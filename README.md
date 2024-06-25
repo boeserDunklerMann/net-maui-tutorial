@@ -15,3 +15,6 @@ Definition der UI des Hauptfensters (analog zu WPF). Siehe auch Kommentare in de
 ## MainPage.xaml.cs
 Codebehind des Hauptfensters. `Clicked` Ereignishanadler - so, wie mans nicht macht!
 Die statische `Announce` Methode der Klasse `SemanticScreenReader` weist der Sprachausgabe an, einen Text vorzulesen (Barrierefreiheit).
+
+## MauiProgram.cs
+Jede native Platform hat einen anderen Einstiegspunkt in die Anwendung, diesen Code befindet sich im Ordner **Platforms**. Diese rufen die Methode `CreateMauiApp` der statischen Klasse `MauiProgram` auf.

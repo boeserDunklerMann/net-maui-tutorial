@@ -4,6 +4,10 @@ namespace FirstSteps
 {
 	public static class MauiProgram
 	{
+		/// <summary>
+		/// erzeugt die Maui Anwendung und wird vom nativen Plattform-Code aufgerufen
+		/// </summary>
+		/// <returns></returns>
 		public static MauiApp CreateMauiApp()
 		{
 			var builder = MauiApp.CreateBuilder();
