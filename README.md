@@ -18,3 +18,5 @@ Die statische `Announce` Methode der Klasse `SemanticScreenReader` weist der Spr
 
 ## MauiProgram.cs
 Jede native Platform hat einen anderen Einstiegspunkt in die Anwendung, diesen Code befindet sich im Ordner **Platforms**. Diese rufen die Methode `CreateMauiApp` der statischen Klasse `MauiProgram` auf.
+### Steuerungsablauf beim Start einer MAUI App
+!(https://learn.microsoft.com/de-de/training/dot-net-maui/build-mobile-and-desktop-apps/media/3-startup-flow.png)
